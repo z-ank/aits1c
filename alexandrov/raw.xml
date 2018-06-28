@@ -1,0 +1,726 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>Сырье</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СырьеНаименованиеОтправителя</dataPath>
+			<field>СырьеНаименованиеОтправителя</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сырье наименование отправителя</v8:content>
+				</v8:item>
+			</title>
+			<appearance/>
+			<inputParameters/>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СырьеДатаПартии</dataPath>
+			<field>СырьеДатаПартии</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сырье дата партии</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+				<dcscom:ignoreNullValues>true</dcscom:ignoreNullValues>
+			</role>
+			<appearance/>
+			<inputParameters/>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СырьеДокумент</dataPath>
+			<field>СырьеДокумент</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сырье документ</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:periodNumber>1</dcscom:periodNumber>
+				<dcscom:periodType>Main</dcscom:periodType>
+			</role>
+			<appearance/>
+			<inputParameters/>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СырьеGLNОтправителя</dataPath>
+			<field>СырьеGLNОтправителя</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сырье GLNОтправителя</v8:content>
+				</v8:item>
+			</title>
+			<appearance/>
+			<inputParameters/>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СырьеНаименованиеПолучателя</dataPath>
+			<field>СырьеНаименованиеПолучателя</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сырье наименование получателя</v8:content>
+				</v8:item>
+			</title>
+			<appearance/>
+			<inputParameters/>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СырьеGLNПолучателя</dataPath>
+			<field>СырьеGLNПолучателя</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сырье GLNПолучателя</v8:content>
+				</v8:item>
+			</title>
+			<appearance/>
+			<inputParameters/>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СырьеПолучатель</dataPath>
+			<field>СырьеПолучатель</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сырье получатель</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+			<appearance/>
+			<inputParameters/>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СырьеТипОтрасли</dataPath>
+			<field>СырьеТипОтрасли</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сырье тип отрасли</v8:content>
+				</v8:item>
+			</title>
+			<appearance/>
+			<inputParameters/>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СырьеНоменклатура</dataPath>
+			<field>СырьеНоменклатура</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сырье номенклатура</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+				<dcscom:ignoreNullValues>true</dcscom:ignoreNullValues>
+			</role>
+			<appearance/>
+			<inputParameters/>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СырьеОтправитель</dataPath>
+			<field>СырьеОтправитель</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сырье отправитель</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:periodNumber>2</dcscom:periodNumber>
+				<dcscom:periodType>Main</dcscom:periodType>
+			</role>
+			<appearance/>
+			<inputParameters/>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СырьеЕдиницаИзмерения</dataPath>
+			<field>СырьеЕдиницаИзмерения</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сырье единица измерения</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+				<dcscom:ignoreNullValues>true</dcscom:ignoreNullValues>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СырьеПартия</dataPath>
+			<field>СырьеПартия</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сырье партия</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+				<dcscom:ignoreNullValues>true</dcscom:ignoreNullValues>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СырьеНомерПартии</dataPath>
+			<field>СырьеНомерПартии</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сырье номер партии</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+				<dcscom:ignoreNullValues>true</dcscom:ignoreNullValues>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Валюта</dataPath>
+			<field>Валюта</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Субконто2</dataPath>
+			<field>Субконто2</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Субконто1</dataPath>
+			<field>Субконто1</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Счет</dataPath>
+			<field>Счет</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Субконто3</dataPath>
+			<field>Субконто3</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Организация</dataPath>
+			<field>Организация</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Подразделение</dataPath>
+			<field>Подразделение</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КорСубконто1</dataPath>
+			<field>КорСубконто1</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КорСубконто2</dataPath>
+			<field>КорСубконто2</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КорСубконто3</dataPath>
+			<field>КорСубконто3</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВалютаКор</dataPath>
+			<field>ВалютаКор</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПодразделениеКор</dataPath>
+			<field>ПодразделениеКор</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КорСчет</dataPath>
+			<field>КорСчет</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПолеСвязи</dataPath>
+			<field>ПолеСвязи</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Поле связи</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СырьеНаименованиеПунктаРазгрузки</dataPath>
+			<field>СырьеНаименованиеПунктаРазгрузки</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сырье наименование пункта разгрузки</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СырьеПунктРазгрузки</dataPath>
+			<field>СырьеПунктРазгрузки</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сырье пункт разгрузки</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:periodNumber>3</dcscom:periodNumber>
+				<dcscom:periodType>Main</dcscom:periodType>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СырьеGLNПунктаРазгрузки</dataPath>
+			<field>СырьеGLNПунктаРазгрузки</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сырье GLNПункта разгрузки</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СырьеТипЖивотного</dataPath>
+			<field>СырьеТипЖивотного</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сырье тип животного</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СырьеGLNПунктаПогрузки</dataPath>
+			<field>СырьеGLNПунктаПогрузки</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сырье GLNПункта погрузки</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СырьеНаименованиеПунктаПогрузки</dataPath>
+			<field>СырьеНаименованиеПунктаПогрузки</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сырье наименование пункта погрузки</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СырьеПунктПогрузки</dataPath>
+			<field>СырьеПунктПогрузки</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сырье пункт погрузки</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:periodNumber>4</dcscom:periodNumber>
+				<dcscom:periodType>Main</dcscom:periodType>
+			</role>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	Хозрасчетный.Период КАК Дата,
+	Хозрасчетный.Регистратор КАК Регистратор,
+	Хозрасчетный.Организация КАК Организация,
+	ВЫРАЗИТЬ(Хозрасчетный.Регистратор КАК Документ.ПоступлениеТоваровУслуг).Контрагент КАК Контрагент,
+	ВЫРАЗИТЬ(Хозрасчетный.Регистратор КАК Документ.ПоступлениеТоваровУслуг).Склад КАК Склад,
+	ВЫРАЗИТЬ(Хозрасчетный.Регистратор КАК Документ.ПоступлениеТоваровУслуг).ПунктПогрузки КАК ПунктПогрузки,
+	ВЫРАЗИТЬ(Хозрасчетный.Субконто1 КАК Документ.Партия) КАК Партия,
+	ВЫРАЗИТЬ(Хозрасчетный.Субконто1 КАК Документ.Партия).Номенклатура КАК Номенклатура,
+	ВЫРАЗИТЬ(Хозрасчетный.Субконто1 КАК Документ.Партия).ЕдиницаИзмерения КАК ЕдиницаИзмерения,
+	ВЫРАЗИТЬ(Хозрасчетный.Субконто1 КАК Документ.Партия).Номер КАК НомерПартии,
+	ВЫРАЗИТЬ(Хозрасчетный.Субконто1 КАК Документ.Партия).Дата КАК ДатаПартии
+ПОМЕСТИТЬ ВТПервичныеДокументы
+ИЗ
+	РегистрБухгалтерии.Хозрасчетный.Обороты(
+			&amp;НачалоПериода,
+			КОНЕЦПЕРИОДА(&amp;КонецПериода, ДЕНЬ),
+			Регистратор,
+			,
+			ЗНАЧЕНИЕ(ПланВидовХарактеристик.ВидыСубконтоХозрасчетные.Партии),
+			Организация = &amp;Организация
+				И ВЫРАЗИТЬ(Субконто1 КАК Документ.Партия).Номенклатура.ТипНоменклатуры = ЗНАЧЕНИЕ(Перечисление.ЮИ_ТипыНоменклатуры.Сырье),
+			,
+			) КАК Хозрасчетный
+ГДЕ
+	Хозрасчетный.Регистратор ССЫЛКА Документ.ПоступлениеТоваровУслуг
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ВТПервичныеДокументы.Регистратор КАК ПервичныйДокумент,
+	ВТПервичныеДокументы.Организация КАК СубъектОрганизация,
+	ВТПервичныеДокументы.Контрагент КАК СубъектКонтрагент,
+	ВТПервичныеДокументы.Склад КАК СубъектСклад,
+	ВТПервичныеДокументы.ПунктПогрузки КАК СубъектПунктПогрузки,
+	МАКСИМУМ(СведенияОСубъектахAITSОрганизация.Период) КАК ПериодОрганизация,
+	МАКСИМУМ(СведенияОСубъектахAITSКонтрагент.Период) КАК ПериодКонтрагент,
+	МАКСИМУМ(СведенияОСубъектахAITSСклад.Период) КАК ПериодСклад,
+	МАКСИМУМ(СведенияОСубъектахAITSПунктПогрузки.Период) КАК ПериодПунктПогрузки
+ПОМЕСТИТЬ ВТСведенияОСубъектахAITSПоПериодам
+ИЗ
+	ВТПервичныеДокументы КАК ВТПервичныеДокументы
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.ЮИ_СведенияОСубъектахAITS КАК СведенияОСубъектахAITSОрганизация
+		ПО ВТПервичныеДокументы.Организация = СведенияОСубъектахAITSОрганизация.Субъект
+			И ВТПервичныеДокументы.Дата &gt;= СведенияОСубъектахAITSОрганизация.Период
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.ЮИ_СведенияОСубъектахAITS КАК СведенияОСубъектахAITSКонтрагент
+		ПО ВТПервичныеДокументы.Контрагент = СведенияОСубъектахAITSКонтрагент.Субъект
+			И ВТПервичныеДокументы.Дата &gt;= СведенияОСубъектахAITSКонтрагент.Период
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.ЮИ_СведенияОСубъектахAITS КАК СведенияОСубъектахAITSСклад
+		ПО ВТПервичныеДокументы.Склад = СведенияОСубъектахAITSСклад.Субъект
+			И ВТПервичныеДокументы.Дата &gt;= СведенияОСубъектахAITSСклад.Период
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.ЮИ_СведенияОСубъектахAITS КАК СведенияОСубъектахAITSПунктПогрузки
+		ПО ВТПервичныеДокументы.ПунктПогрузки = СведенияОСубъектахAITSПунктПогрузки.Субъект
+			И ВТПервичныеДокументы.Дата &gt;= СведенияОСубъектахAITSПунктПогрузки.Период
+
+СГРУППИРОВАТЬ ПО
+	ВТПервичныеДокументы.Регистратор,
+	ВТПервичныеДокументы.Организация,
+	ВТПервичныеДокументы.Контрагент,
+	ВТПервичныеДокументы.Склад,
+	ВТПервичныеДокументы.ПунктПогрузки
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	СведенияОСубъектахAITS.ПервичныйДокумент,
+	СведенияОСубъектахAITS.СубъектОрганизация,
+	ЕСТЬNULL(СведенияОСубъектахAITSОрганизация.GLN, "") КАК GLNОрганизация,
+	СведенияОСубъектахAITSОрганизация.ТипОтраслиПромышленности КАК ТипОтраслиОрганизация,
+	ВЫБОР
+		КОГДА СведенияОСубъектахAITSОрганизация.Наименование ЕСТЬ NULL
+				ИЛИ СведенияОСубъектахAITSОрганизация.Наименование = ""
+			ТОГДА ВЫРАЗИТЬ(СведенияОСубъектахAITS.СубъектОрганизация.НаименованиеПолное КАК СТРОКА(200))
+		ИНАЧЕ СведенияОСубъектахAITSОрганизация.Наименование
+	КОНЕЦ КАК НаименованиеОрганизация,
+	ВЫБОР
+		КОГДА СведенияОСубъектахAITSОрганизация.УНП ЕСТЬ NULL
+				ИЛИ СведенияОСубъектахAITSОрганизация.УНП = ""
+			ТОГДА СведенияОСубъектахAITS.СубъектОрганизация.ИНН
+		ИНАЧЕ СведенияОСубъектахAITSОрганизация.УНП
+	КОНЕЦ КАК УНПОрганизация,
+	СведенияОСубъектахAITS.СубъектКонтрагент,
+	ЕСТЬNULL(СведенияОСубъектахAITSКонтрагент.GLN, "") КАК GLNКонтрагент,
+	СведенияОСубъектахAITSКонтрагент.ТипОтраслиПромышленности КАК ТипОтраслиКонтрагент,
+	ВЫБОР
+		КОГДА СведенияОСубъектахAITSКонтрагент.Наименование ЕСТЬ NULL
+				ИЛИ СведенияОСубъектахAITSКонтрагент.Наименование = ""
+			ТОГДА ВЫРАЗИТЬ(СведенияОСубъектахAITS.СубъектКонтрагент.НаименованиеПолное КАК СТРОКА(200))
+		ИНАЧЕ СведенияОСубъектахAITSКонтрагент.Наименование
+	КОНЕЦ КАК НаименованиеКонтрагент,
+	ВЫБОР
+		КОГДА СведенияОСубъектахAITSКонтрагент.УНП ЕСТЬ NULL
+				ИЛИ СведенияОСубъектахAITSКонтрагент.УНП = ""
+			ТОГДА СведенияОСубъектахAITS.СубъектКонтрагент.ИНН
+		ИНАЧЕ СведенияОСубъектахAITSКонтрагент.УНП
+	КОНЕЦ КАК УНПКонтрагент,
+	СведенияОСубъектахAITS.СубъектСклад,
+	ЕСТЬNULL(СведенияОСубъектахAITSСклад.GLN, "") КАК GLNСклад,
+	ВЫБОР
+		КОГДА СведенияОСубъектахAITSСклад.Наименование ЕСТЬ NULL
+				ИЛИ СведенияОСубъектахAITSСклад.Наименование = ""
+			ТОГДА СведенияОСубъектахAITS.СубъектСклад.Наименование
+		ИНАЧЕ СведенияОСубъектахAITSСклад.Наименование
+	КОНЕЦ КАК НаименованиеСклад,
+	СведенияОСубъектахAITS.СубъектПунктПогрузки,
+	ЕСТЬNULL(СведенияОСубъектахAITSПунктПогрузки.GLN, "") КАК GLNПунктПогрузки,
+	ВЫБОР
+		КОГДА СведенияОСубъектахAITSПунктПогрузки.Наименование ЕСТЬ NULL
+				ИЛИ СведенияОСубъектахAITSПунктПогрузки.Наименование = ""
+			ТОГДА СведенияОСубъектахAITS.СубъектПунктПогрузки.Наименование
+		ИНАЧЕ СведенияОСубъектахAITSПунктПогрузки.Наименование
+	КОНЕЦ КАК НаименованиеПунктПогрузки
+ПОМЕСТИТЬ ВТСведенияОСубъектахAITS
+ИЗ
+	ВТСведенияОСубъектахAITSПоПериодам КАК СведенияОСубъектахAITS
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.ЮИ_СведенияОСубъектахAITS КАК СведенияОСубъектахAITSОрганизация
+		ПО СведенияОСубъектахAITS.СубъектОрганизация = СведенияОСубъектахAITSОрганизация.Субъект
+			И СведенияОСубъектахAITS.ПериодОрганизация = СведенияОСубъектахAITSОрганизация.Период
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.ЮИ_СведенияОСубъектахAITS КАК СведенияОСубъектахAITSКонтрагент
+		ПО СведенияОСубъектахAITS.СубъектКонтрагент = СведенияОСубъектахAITSКонтрагент.Субъект
+			И СведенияОСубъектахAITS.ПериодКонтрагент = СведенияОСубъектахAITSКонтрагент.Период
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.ЮИ_СведенияОСубъектахAITS КАК СведенияОСубъектахAITSСклад
+		ПО СведенияОСубъектахAITS.СубъектСклад = СведенияОСубъектахAITSСклад.Субъект
+			И СведенияОСубъектахAITS.ПериодСклад = СведенияОСубъектахAITSСклад.Период
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.ЮИ_СведенияОСубъектахAITS КАК СведенияОСубъектахAITSПунктПогрузки
+		ПО СведенияОСубъектахAITS.СубъектПунктПогрузки = СведенияОСубъектахAITSПунктПогрузки.Субъект
+			И СведенияОСубъектахAITS.ПериодПунктПогрузки = СведенияОСубъектахAITSПунктПогрузки.Период
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ВТСведенияОСубъектахAITS.ПервичныйДокумент КАК СырьеДокумент,
+	ВТСведенияОСубъектахAITS.СубъектОрганизация КАК СырьеПолучатель,
+	ВТСведенияОСубъектахAITS.GLNОрганизация КАК СырьеGLNПолучателя,
+	ВТСведенияОСубъектахAITS.ТипОтраслиОрганизация КАК СырьеТипОтрасли,
+	ВТСведенияОСубъектахAITS.НаименованиеОрганизация КАК СырьеНаименованиеПолучателя,
+	ВТСведенияОСубъектахAITS.СубъектКонтрагент КАК СырьеОтправитель,
+	ВТСведенияОСубъектахAITS.GLNКонтрагент КАК СырьеGLNОтправителя,
+	ВТСведенияОСубъектахAITS.НаименованиеКонтрагент КАК СырьеНаименованиеОтправителя,
+	ВТПервичныеДокументы.Партия КАК СырьеПартия,
+	ВТПервичныеДокументы.Номенклатура КАК СырьеНоменклатура,
+	ВТПервичныеДокументы.Номенклатура.ТипЖивотного КАК СырьеТипЖивотного,
+	ВТПервичныеДокументы.ЕдиницаИзмерения КАК СырьеЕдиницаИзмерения,
+	ВТПервичныеДокументы.НомерПартии КАК СырьеНомерПартии,
+	ВТПервичныеДокументы.ДатаПартии КАК СырьеДатаПартии,
+	ВТСведенияОСубъектахAITS.СубъектСклад КАК СырьеПунктРазгрузки,
+	ВТСведенияОСубъектахAITS.GLNСклад КАК СырьеGLNПунктаРазгрузки,
+	ВТСведенияОСубъектахAITS.НаименованиеСклад КАК СырьеНаименованиеПунктаРазгрузки,
+	ВТСведенияОСубъектахAITS.СубъектПунктПогрузки КАК СырьеПунктПогрузки,
+	ВТСведенияОСубъектахAITS.GLNПунктПогрузки КАК СырьеGLNПунктаПогрузки,
+	ВТСведенияОСубъектахAITS.НаименованиеПунктПогрузки КАК СырьеНаименованиеПунктаПогрузки,
+	ИСТИНА КАК ПолеСвязи
+ИЗ
+	ВТСведенияОСубъектахAITS КАК ВТСведенияОСубъектахAITS
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ ВТПервичныеДокументы КАК ВТПервичныеДокументы
+		ПО ВТСведенияОСубъектахAITS.ПервичныйДокумент = ВТПервичныеДокументы.Регистратор</query>
+	</dataSet>
+	<dataSet xsi:type="DataSetQuery">
+		<name>Показатели</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПоказателиСырьяНаименованиеПоказателя</dataPath>
+			<field>ПоказателиСырьяНаименованиеПоказателя</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Показатели сырья наименование показателя</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПолеСвязи</dataPath>
+			<field>ПолеСвязи</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Поле связи</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	ИСТИНА КАК ПолеСвязи,
+	"Наименование" КАК ПоказателиСырьяНаименованиеПоказателя
+</query>
+	</dataSet>
+	<dataSetLink>
+		<sourceDataSet>Сырье</sourceDataSet>
+		<destinationDataSet>Показатели</destinationDataSet>
+		<sourceExpression>ПолеСвязи</sourceExpression>
+		<destinationExpression>ПолеСвязи</destinationExpression>
+	</dataSetLink>
+	<calculatedField>
+		<dataPath>СырьеGUIN</dataPath>
+		<expression>XMLСтрока(СырьеПартия)</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Сырье GUIN</v8:content>
+			</v8:item>
+		</title>
+	</calculatedField>
+	<calculatedField>
+		<dataPath>ПоказателиСырьяИдентификаторСтрокиСырья</dataPath>
+		<expression>XMLСтрока(СырьеПартия)</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Показатели сырья идентификатор строки сырья</v8:content>
+			</v8:item>
+		</title>
+	</calculatedField>
+	<calculatedField>
+		<dataPath>ПоказателиСырьяЗначениеПоказателя</dataPath>
+		<expression>ВЫБОР КОГДА ПоказателиСырьяНаименованиеПоказателя = "Наименование" ТОГДА Представление(СырьеНоменклатура) КОНЕЦ</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Показатели сырья значение показателя</v8:content>
+			</v8:item>
+		</title>
+	</calculatedField>
+	<parameter>
+		<name>КонецПериода</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Конец периода</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<parameter>
+		<name>НачалоПериода</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Начало периода</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<parameter>
+		<name>Организация</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Организация</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.Организации</v8:Type>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>Сырье</dcsset:name>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Сырье</v8:content>
+			</v8:item>
+		</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СырьеGUIN</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СырьеПолучатель</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СырьеGLNПолучателя</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СырьеНаименованиеПолучателя</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СырьеОтправитель</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СырьеGLNОтправителя</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СырьеНаименованиеОтправителя</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СырьеДокумент</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СырьеНоменклатура</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СырьеЕдиницаИзмерения</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СырьеТипЖивотного</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СырьеПартия</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СырьеДатаПартии</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СырьеНомерПартии</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СырьеТипОтрасли</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СырьеПунктРазгрузки</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СырьеGLNПунктаРазгрузки</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СырьеНаименованиеПунктаРазгрузки</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СырьеПунктПогрузки</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СырьеGLNПунктаПогрузки</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СырьеНаименованиеПунктаПогрузки</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+	<settingsVariant>
+		<dcsset:name>ПоказателиСырья</dcsset:name>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Показатели сырья</v8:content>
+			</v8:item>
+		</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:groupItems>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>ПоказателиСырьяИдентификаторСтрокиСырья</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>ПоказателиСырьяНаименованиеПоказателя</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>ПоказателиСырьяЗначениеПоказателя</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+				</dcsset:groupItems>
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

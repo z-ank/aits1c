@@ -1,0 +1,905 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>Продукция</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Организация</dataPath>
+			<field>Организация</field>
+			<appearance/>
+			<inputParameters/>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СубконтоСписания3</dataPath>
+			<field>СубконтоСписания3</field>
+			<appearance/>
+			<inputParameters/>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Продукция</dataPath>
+			<field>Продукция</field>
+			<appearance/>
+			<inputParameters/>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НоменклатурнаяГруппа</dataPath>
+			<field>НоменклатурнаяГруппа</field>
+			<appearance/>
+			<inputParameters/>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СчетЗатрат</dataPath>
+			<field>СчетЗатрат</field>
+			<appearance/>
+			<inputParameters/>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПродукцияПартия</dataPath>
+			<field>ПродукцияПартия</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Продукция партия</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+				<dcscom:ignoreNullValues>true</dcscom:ignoreNullValues>
+			</role>
+			<appearance/>
+			<inputParameters/>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Подразделение</dataPath>
+			<field>Подразделение</field>
+			<appearance/>
+			<inputParameters/>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СубконтоСписания1</dataPath>
+			<field>СубконтоСписания1</field>
+			<appearance/>
+			<inputParameters/>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПродукцияЕдиницаИзмерения</dataPath>
+			<field>ПродукцияЕдиницаИзмерения</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Продукция единица измерения</v8:content>
+				</v8:item>
+			</title>
+			<appearance/>
+			<inputParameters/>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПродукцияТипОтрасли</dataPath>
+			<field>ПродукцияТипОтрасли</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Продукция тип отрасли</v8:content>
+				</v8:item>
+			</title>
+			<appearance/>
+			<inputParameters/>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СчетСписания</dataPath>
+			<field>СчетСписания</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СубконтоСписания2</dataPath>
+			<field>СубконтоСписания2</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПрямыеРасходыРаспределятьПоКоличеству</dataPath>
+			<field>ПрямыеРасходыРаспределятьПоКоличеству</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПодразделениеСписания</dataPath>
+			<field>ПодразделениеСписания</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПродукцияПроизводитель</dataPath>
+			<field>ПродукцияПроизводитель</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Продукция производитель</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПродукцияGLNПроизводителя</dataPath>
+			<field>ПродукцияGLNПроизводителя</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Продукция GLNПроизводителя</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПродукцияНаименованиеПроизводителя</dataPath>
+			<field>ПродукцияНаименованиеПроизводителя</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Продукция наименование производителя</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПродукцияНаименованиеПродукции</dataPath>
+			<field>ПродукцияНаименованиеПродукции</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Продукция наименование продукции</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПродукцияНомерПартии</dataPath>
+			<field>ПродукцияНомерПартии</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Продукция номер партии</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПродукцияДатаПартии</dataPath>
+			<field>ПродукцияДатаПартии</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Продукция дата партии</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПродукцияНоменклатура</dataPath>
+			<field>ПродукцияНоменклатура</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Продукция номенклатура</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Регистратор</dataPath>
+			<field>Регистратор</field>
+			<role>
+				<dcscom:periodNumber>1</dcscom:periodNumber>
+				<dcscom:periodType>Main</dcscom:periodType>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СчетДт</dataPath>
+			<field>СчетДт</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СубконтоКт2</dataPath>
+			<field>СубконтоКт2</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СубконтоДт1</dataPath>
+			<field>СубконтоДт1</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СчетКт</dataPath>
+			<field>СчетКт</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СубконтоКт3</dataPath>
+			<field>СубконтоКт3</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СубконтоДт2</dataPath>
+			<field>СубконтоДт2</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СубконтоДт3</dataPath>
+			<field>СубконтоДт3</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СубконтоКт1</dataPath>
+			<field>СубконтоКт1</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВалютаДт</dataPath>
+			<field>ВалютаДт</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВалютаКт</dataPath>
+			<field>ВалютаКт</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПодразделениеДт</dataPath>
+			<field>ПодразделениеДт</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПодразделениеКт</dataPath>
+			<field>ПодразделениеКт</field>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ РАЗРЕШЕННЫЕ РАЗЛИЧНЫЕ
+	ВЫРАЗИТЬ(Хозрасчетный.СубконтоДт1 КАК Документ.Партия) КАК ПартияКонечная,
+	ВЫРАЗИТЬ(Хозрасчетный.СубконтоКт1 КАК Документ.Партия) КАК ПартияИсходная
+ПОМЕСТИТЬ ВТДанныеПрошлыйПериод
+ИЗ
+	РегистрБухгалтерии.Хозрасчетный.ОборотыДтКт(ДОБАВИТЬКДАТЕ(&amp;НачалоПериода, МЕСЯЦ, -6), ДОБАВИТЬКДАТЕ(&amp;НачалоПериода, СЕКУНДА, -1), Регистратор, , ЗНАЧЕНИЕ(ПланВидовХарактеристик.ВидыСубконтоХозрасчетные.Партии), , ЗНАЧЕНИЕ(ПланВидовХарактеристик.ВидыСубконтоХозрасчетные.Партии), Организация = &amp;Организация) КАК Хозрасчетный
+ГДЕ
+	Хозрасчетный.Регистратор ССЫЛКА Документ.ЮИ_АктПереводаГотовойПродукцииМеждуКатегориями
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ВТДанные_0.ПартияКонечная,
+	ЕСТЬNULL(ВТДанные_3.ПартияИсходная, ЕСТЬNULL(ВТДанные_2.ПартияИсходная, ВТДанные_1.ПартияИсходная)) КАК ПартияИсходная
+ПОМЕСТИТЬ ВТДанныеПрошлыйПериодСИсточником
+ИЗ
+	ВТДанныеПрошлыйПериод КАК ВТДанные_0
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ ВТДанныеПрошлыйПериод КАК ВТДанные_1
+			ЛЕВОЕ СОЕДИНЕНИЕ ВТДанныеПрошлыйПериод КАК ВТДанные_2
+				ЛЕВОЕ СОЕДИНЕНИЕ ВТДанныеПрошлыйПериод КАК ВТДанные_3
+				ПО ВТДанные_2.ПартияИсходная = ВТДанные_3.ПартияКонечная
+					И (НЕ ВТДанные_2.ПартияИсходная.ПриходныйДокумент ССЫЛКА Документ.ОтчетПроизводстваЗаСмену)
+			ПО ВТДанные_1.ПартияИсходная = ВТДанные_2.ПартияКонечная
+				И (НЕ ВТДанные_1.ПартияИсходная.ПриходныйДокумент ССЫЛКА Документ.ОтчетПроизводстваЗаСмену)
+		ПО ВТДанные_0.ПартияИсходная = ВТДанные_1.ПартияКонечная
+			И (НЕ ВТДанные_0.ПартияИсходная.ПриходныйДокумент ССЫЛКА Документ.ОтчетПроизводстваЗаСмену)
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ РАЗРЕШЕННЫЕ РАЗЛИЧНЫЕ
+	ВЫРАЗИТЬ(Хозрасчетный.СубконтоДт1 КАК Документ.Партия) КАК ПартияКонечная,
+	ЕСТЬNULL(ВТДанныеПрошлыйПериодСИсточником.ПартияИсходная, ВЫРАЗИТЬ(Хозрасчетный.СубконтоКт1 КАК Документ.Партия)) КАК ПартияИсходная
+ПОМЕСТИТЬ ВТДанные
+ИЗ
+	РегистрБухгалтерии.Хозрасчетный.ОборотыДтКт(&amp;НачалоПериода, КОНЕЦПЕРИОДА(&amp;КонецПериода, ДЕНЬ), Регистратор, , ЗНАЧЕНИЕ(ПланВидовХарактеристик.ВидыСубконтоХозрасчетные.Партии), , ЗНАЧЕНИЕ(ПланВидовХарактеристик.ВидыСубконтоХозрасчетные.Партии), Организация = &amp;Организация) КАК Хозрасчетный
+		ЛЕВОЕ СОЕДИНЕНИЕ ВТДанныеПрошлыйПериодСИсточником КАК ВТДанныеПрошлыйПериодСИсточником
+		ПО Хозрасчетный.СубконтоКт1 = ВТДанныеПрошлыйПериодСИсточником.ПартияКонечная
+ГДЕ
+	Хозрасчетный.Регистратор ССЫЛКА Документ.ЮИ_АктПереводаГотовойПродукцииМеждуКатегориями
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ВТДанные_0.ПартияКонечная КАК Партия,
+	ЕСТЬNULL(ВТДанные_3.ПартияИсходная.ПриходныйДокумент, ЕСТЬNULL(ВТДанные_2.ПартияИсходная.ПриходныйДокумент, ВТДанные_1.ПартияИсходная.ПриходныйДокумент)) КАК Регистратор
+ПОМЕСТИТЬ ВТДанныеСИсточником
+ИЗ
+	ВТДанные КАК ВТДанные_0
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ ВТДанные КАК ВТДанные_1
+			ЛЕВОЕ СОЕДИНЕНИЕ ВТДанные КАК ВТДанные_2
+				ЛЕВОЕ СОЕДИНЕНИЕ ВТДанные КАК ВТДанные_3
+				ПО ВТДанные_2.ПартияИсходная = ВТДанные_3.ПартияКонечная
+					И (НЕ ВТДанные_2.ПартияИсходная.ПриходныйДокумент ССЫЛКА Документ.ОтчетПроизводстваЗаСмену)
+			ПО ВТДанные_1.ПартияИсходная = ВТДанные_2.ПартияКонечная
+				И (НЕ ВТДанные_1.ПартияИсходная.ПриходныйДокумент ССЫЛКА Документ.ОтчетПроизводстваЗаСмену)
+		ПО ВТДанные_0.ПартияИсходная = ВТДанные_1.ПартияКонечная
+			И (НЕ ВТДанные_0.ПартияИсходная.ПриходныйДокумент ССЫЛКА Документ.ОтчетПроизводстваЗаСмену)
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ВТДанные.ПартияКонечная КАК Партия,
+	ВЫРАЗИТЬ(ЕСТЬNULL(ВТДанныеСИсточником.Регистратор, ВТДанные.ПартияИсходная.ПриходныйДокумент) КАК Документ.ОтчетПроизводстваЗаСмену) КАК Регистратор
+ПОМЕСТИТЬ ВТАктПеревода
+ИЗ
+	ВТДанные КАК ВТДанные
+		ЛЕВОЕ СОЕДИНЕНИЕ ВТДанныеСИсточником КАК ВТДанныеСИсточником
+		ПО ВТДанные.ПартияКонечная = ВТДанныеСИсточником.Партия
+ГДЕ
+	ЕСТЬNULL(ВТДанныеСИсточником.Регистратор, ВТДанные.ПартияИсходная.ПриходныйДокумент) ССЫЛКА Документ.ОтчетПроизводстваЗаСмену
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ РАЗРЕШЕННЫЕ РАЗЛИЧНЫЕ
+	ВыпускПродукцииУслугОбороты.Организация,
+	ВыпускПродукцииУслугОбороты.Период КАК Дата,
+	ВЫБОР
+		КОГДА ВыпускПродукцииУслугОбороты.СубконтоСписания1 ССЫЛКА Документ.Партия
+			ТОГДА ВЫРАЗИТЬ(ВыпускПродукцииУслугОбороты.СубконтоСписания1 КАК Документ.Партия)
+		КОГДА ВыпускПродукцииУслугОбороты.СубконтоСписания2 ССЫЛКА Документ.Партия
+			ТОГДА ВЫРАЗИТЬ(ВыпускПродукцииУслугОбороты.СубконтоСписания2 КАК Документ.Партия)
+		КОГДА ВыпускПродукцииУслугОбороты.СубконтоСписания3 ССЫЛКА Документ.Партия
+			ТОГДА ВЫРАЗИТЬ(ВыпускПродукцииУслугОбороты.СубконтоСписания3 КАК Документ.Партия)
+	КОНЕЦ КАК Партия,
+	ВыпускПродукцииУслугОбороты.Регистратор
+ПОМЕСТИТЬ ВТВыпускПродукции
+ИЗ
+	РегистрНакопления.ВыпускПродукцииУслуг.Обороты(&amp;НачалоПериода, КОНЕЦПЕРИОДА(&amp;КонецПериода, ДЕНЬ), Регистратор, Организация = &amp;Организация) КАК ВыпускПродукцииУслугОбороты
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	ВТАктПеревода.Регистратор.Организация,
+	ВТАктПеревода.Регистратор.Дата,
+	ВТАктПеревода.Партия,
+	ВТАктПеревода.Регистратор
+ИЗ
+	ВТАктПеревода КАК ВТАктПеревода
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ВТВыпускПродукции.Организация,
+	ВТВыпускПродукции.Дата,
+	ВТВыпускПродукции.Партия,
+	ВТВыпускПродукции.Партия.Номенклатура КАК Номенклатура,
+	ВТВыпускПродукции.Партия.Номенклатура.Наименование КАК НоменклатураНаименование,
+	ВТВыпускПродукции.Партия.ЕдиницаИзмерения КАК ЕдиницаИзмерения,
+	ВТВыпускПродукции.Партия.Номер КАК НомерПартии,
+	ВТВыпускПродукции.Партия.Дата КАК ДатаПартии,
+	ВТВыпускПродукции.Регистратор
+ПОМЕСТИТЬ ВТПервичныеДокументы
+ИЗ
+	ВТВыпускПродукции КАК ВТВыпускПродукции
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ВТПервичныеДокументы.Регистратор,
+	ВТПервичныеДокументы.Организация КАК СубъектОрганизация,
+	МАКСИМУМ(СведенияОСубъектахAITSОрганизация.Период) КАК ПериодОрганизация
+ПОМЕСТИТЬ ВТСведенияОСубъектахAITSПоПериодам
+ИЗ
+	ВТПервичныеДокументы КАК ВТПервичныеДокументы
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.ЮИ_СведенияОСубъектахAITS КАК СведенияОСубъектахAITSОрганизация
+		ПО ВТПервичныеДокументы.Организация = СведенияОСубъектахAITSОрганизация.Субъект
+			И ВТПервичныеДокументы.Дата &gt;= СведенияОСубъектахAITSОрганизация.Период
+
+СГРУППИРОВАТЬ ПО
+	ВТПервичныеДокументы.Организация,
+	ВТПервичныеДокументы.Регистратор
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	СведенияОСубъектахAITS.Регистратор,
+	СведенияОСубъектахAITS.СубъектОрганизация,
+	ЕСТЬNULL(СведенияОСубъектахAITSОрганизация.GLN, "") КАК GLNОрганизация,
+	СведенияОСубъектахAITSОрганизация.ТипОтраслиПромышленности КАК ТипОтраслиОрганизация,
+	ВЫБОР
+		КОГДА СведенияОСубъектахAITSОрганизация.Наименование ЕСТЬ NULL
+				ИЛИ СведенияОСубъектахAITSОрганизация.Наименование = ""
+			ТОГДА ВЫРАЗИТЬ(СведенияОСубъектахAITS.СубъектОрганизация.НаименованиеПолное КАК СТРОКА(200))
+		ИНАЧЕ СведенияОСубъектахAITSОрганизация.Наименование
+	КОНЕЦ КАК НаименованиеОрганизация,
+	ВЫБОР
+		КОГДА СведенияОСубъектахAITSОрганизация.УНП ЕСТЬ NULL
+				ИЛИ СведенияОСубъектахAITSОрганизация.УНП = ""
+			ТОГДА СведенияОСубъектахAITS.СубъектОрганизация.ИНН
+		ИНАЧЕ СведенияОСубъектахAITSОрганизация.УНП
+	КОНЕЦ КАК УНПОрганизация
+ПОМЕСТИТЬ ВТСведенияОСубъектахAITS
+ИЗ
+	ВТСведенияОСубъектахAITSПоПериодам КАК СведенияОСубъектахAITS
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.ЮИ_СведенияОСубъектахAITS КАК СведенияОСубъектахAITSОрганизация
+		ПО СведенияОСубъектахAITS.СубъектОрганизация = СведенияОСубъектахAITSОрганизация.Субъект
+			И СведенияОСубъектахAITS.ПериодОрганизация = СведенияОСубъектахAITSОрганизация.Период
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ВТСведенияОСубъектахAITS.Регистратор,
+	ВТСведенияОСубъектахAITS.СубъектОрганизация КАК ПродукцияПроизводитель,
+	ВТСведенияОСубъектахAITS.НаименованиеОрганизация КАК ПродукцияНаименованиеПроизводителя,
+	ВТСведенияОСубъектахAITS.GLNОрганизация КАК ПродукцияGLNПроизводителя,
+	ВТСведенияОСубъектахAITS.ТипОтраслиОрганизация КАК ПродукцияТипОтрасли,
+	ВТПервичныеДокументы.Партия КАК ПродукцияПартия,
+	ВТПервичныеДокументы.НомерПартии КАК ПродукцияНомерПартии,
+	ВТПервичныеДокументы.ДатаПартии КАК ПродукцияДатаПартии,
+	ВТПервичныеДокументы.Номенклатура КАК ПродукцияНоменклатура,
+	ВТПервичныеДокументы.НоменклатураНаименование КАК ПродукцияНаименованиеПродукции,
+	ВТПервичныеДокументы.ЕдиницаИзмерения КАК ПродукцияЕдиницаИзмерения
+ИЗ
+	ВТСведенияОСубъектахAITS КАК ВТСведенияОСубъектахAITS
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ ВТПервичныеДокументы КАК ВТПервичныеДокументы
+		ПО ВТСведенияОСубъектахAITS.Регистратор = ВТПервичныеДокументы.Регистратор</query>
+	</dataSet>
+	<dataSet xsi:type="DataSetQuery">
+		<name>Сырье</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Организация</dataPath>
+			<field>Организация</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СубконтоСписания3</dataPath>
+			<field>СубконтоСписания3</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Продукция</dataPath>
+			<field>Продукция</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НоменклатурнаяГруппа</dataPath>
+			<field>НоменклатурнаяГруппа</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СчетЗатрат</dataPath>
+			<field>СчетЗатрат</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Регистратор</dataPath>
+			<field>Регистратор</field>
+			<role>
+				<dcscom:periodNumber>1</dcscom:periodNumber>
+				<dcscom:periodType>Main</dcscom:periodType>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Подразделение</dataPath>
+			<field>Подразделение</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СубконтоСписания1</dataPath>
+			<field>СубконтоСписания1</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СчетСписания</dataPath>
+			<field>СчетСписания</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СубконтоСписания2</dataPath>
+			<field>СубконтоСписания2</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВалютаКор</dataPath>
+			<field>ВалютаКор</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПрямыеРасходыРаспределятьПоКоличеству</dataPath>
+			<field>ПрямыеРасходыРаспределятьПоКоличеству</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПодразделениеСписания</dataPath>
+			<field>ПодразделениеСписания</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Счет</dataPath>
+			<field>Счет</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Субконто1</dataPath>
+			<field>Субконто1</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Валюта</dataPath>
+			<field>Валюта</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Субконто2</dataPath>
+			<field>Субконто2</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Субконто3</dataPath>
+			<field>Субконто3</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КорСубконто1</dataPath>
+			<field>КорСубконто1</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КорСубконто2</dataPath>
+			<field>КорСубконто2</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КорСубконто3</dataPath>
+			<field>КорСубконто3</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПодразделениеКор</dataPath>
+			<field>ПодразделениеКор</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КорСчет</dataPath>
+			<field>КорСчет</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СырьеНаПродукциюПартия</dataPath>
+			<field>СырьеНаПродукциюПартия</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сырье на продукцию партия</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+				<dcscom:ignoreNullValues>true</dcscom:ignoreNullValues>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СырьеНаПродукциюНоменклатура</dataPath>
+			<field>СырьеНаПродукциюНоменклатура</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сырье на продукцию номенклатура</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СырьеНаПродукциюНомерПартии</dataPath>
+			<field>СырьеНаПродукциюНомерПартии</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сырье на продукцию номер партии</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СырьеНаПродукциюДатаПартии</dataPath>
+			<field>СырьеНаПродукциюДатаПартии</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сырье на продукцию дата партии</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ РАЗРЕШЕННЫЕ РАЗЛИЧНЫЕ
+	ВЫБОР
+		КОГДА ВыпускПродукцииУслуг.СубконтоСписания1 ССЫЛКА Документ.Партия
+			ТОГДА ВЫРАЗИТЬ(ВыпускПродукцииУслуг.СубконтоСписания1 КАК Документ.Партия)
+		КОГДА ВыпускПродукцииУслуг.СубконтоСписания2 ССЫЛКА Документ.Партия
+			ТОГДА ВЫРАЗИТЬ(ВыпускПродукцииУслуг.СубконтоСписания2 КАК Документ.Партия)
+		КОГДА ВыпускПродукцииУслуг.СубконтоСписания3 ССЫЛКА Документ.Партия
+			ТОГДА ВЫРАЗИТЬ(ВыпускПродукцииУслуг.СубконтоСписания3 КАК Документ.Партия)
+	КОНЕЦ КАК Партия,
+	ВыпускПродукцииУслуг.Регистратор
+ПОМЕСТИТЬ ВТВыпускПродукции
+ИЗ
+	РегистрНакопления.ВыпускПродукцииУслуг.Обороты(ДОБАВИТЬКДАТЕ(&amp;НачалоПериода, МЕСЯЦ, -6), КОНЕЦПЕРИОДА(&amp;КонецПериода, ДЕНЬ), Регистратор, Организация = &amp;Организация) КАК ВыпускПродукцииУслуг
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ РАЗРЕШЕННЫЕ РАЗЛИЧНЫЕ
+	Хозрасчетный.Регистратор КАК Регистратор,
+	ВЫРАЗИТЬ(Хозрасчетный.Субконто1 КАК Документ.Партия) КАК Партия
+ПОМЕСТИТЬ ВТХозрасчетный
+ИЗ
+	(ВЫБРАТЬ РАЗЛИЧНЫЕ
+		Т.Регистратор КАК Регистратор
+	ИЗ
+		ВТВыпускПродукции КАК Т) КАК ВТВыпускПродукции
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ РегистрБухгалтерии.Хозрасчетный.Обороты(ДОБАВИТЬКДАТЕ(&amp;НачалоПериода, МЕСЯЦ, -6), КОНЕЦПЕРИОДА(&amp;КонецПериода, ДЕНЬ), Регистратор, , ЗНАЧЕНИЕ(ПланВидовХарактеристик.ВидыСубконтоХозрасчетные.Партии), Организация = &amp;Организация, , ) КАК Хозрасчетный
+		ПО ВТВыпускПродукции.Регистратор = Хозрасчетный.Регистратор
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ВлЗапрос.Регистратор КАК Регистратор,
+	ВлЗапрос.Партия,
+	СУММА(ВлЗапрос.Счетчик) КАК Счетчик
+ПОМЕСТИТЬ ВТСырье
+ИЗ
+	(ВЫБРАТЬ
+		ВТВыпускПродукции.Партия КАК Партия,
+		ВТВыпускПродукции.Регистратор КАК Регистратор,
+		1 КАК Счетчик
+	ИЗ
+		ВТВыпускПродукции КАК ВТВыпускПродукции
+	
+	ОБЪЕДИНИТЬ ВСЕ
+	
+	ВЫБРАТЬ
+		ВТХозрасчетный.Партия,
+		ВТХозрасчетный.Регистратор,
+		1
+	ИЗ
+		ВТХозрасчетный КАК ВТХозрасчетный) КАК ВлЗапрос
+
+СГРУППИРОВАТЬ ПО
+	ВлЗапрос.Регистратор,
+	ВлЗапрос.Партия
+
+ИМЕЮЩИЕ
+	СУММА(ВлЗапрос.Счетчик) &lt; 2
+
+ИНДЕКСИРОВАТЬ ПО
+	Регистратор
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ВТСырье_0.Регистратор,
+	ЕСТЬNULL(ВТСырье_3.Партия, ЕСТЬNULL(ВТСырье_2.Партия, ВТСырье_1.Партия)) КАК Партия
+ПОМЕСТИТЬ ВТСырьеСИсточником
+ИЗ
+	ВТСырье КАК ВТСырье_0
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ ВТСырье КАК ВТСырье_1
+			ЛЕВОЕ СОЕДИНЕНИЕ ВТСырье КАК ВТСырье_2
+				ЛЕВОЕ СОЕДИНЕНИЕ ВТСырье КАК ВТСырье_3
+				ПО ВТСырье_2.Партия.ПриходныйДокумент = ВТСырье_3.Регистратор
+					И (ВТСырье_2.Партия.ПриходныйДокумент ССЫЛКА Документ.ОтчетПроизводстваЗаСмену)
+			ПО ВТСырье_1.Партия.ПриходныйДокумент = ВТСырье_2.Регистратор
+				И (ВТСырье_1.Партия.ПриходныйДокумент ССЫЛКА Документ.ОтчетПроизводстваЗаСмену)
+		ПО ВТСырье_0.Партия.ПриходныйДокумент = ВТСырье_1.Регистратор
+			И (ВТСырье_0.Партия.ПриходныйДокумент ССЫЛКА Документ.ОтчетПроизводстваЗаСмену)
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ВТСырье.Регистратор,
+	ЕСТЬNULL(ВТСырьеСИсточником.Партия, ВТСырье.Партия) КАК Партия
+ПОМЕСТИТЬ ВТПервичныеДокументы
+ИЗ
+	ВТСырье КАК ВТСырье
+		ЛЕВОЕ СОЕДИНЕНИЕ ВТСырьеСИсточником КАК ВТСырьеСИсточником
+		ПО ВТСырье.Регистратор = ВТСырьеСИсточником.Регистратор
+			И (ВТСырье.Партия.ПриходныйДокумент ССЫЛКА Документ.ОтчетПроизводстваЗаСмену)
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ВТПервичныеДокументы.Регистратор,
+	ВТПервичныеДокументы.Партия КАК СырьеНаПродукциюПартия,
+	ВТПервичныеДокументы.Партия.Номенклатура КАК СырьеНаПродукциюНоменклатура,
+	ВТПервичныеДокументы.Партия.Номер КАК СырьеНаПродукциюНомерПартии,
+	ВТПервичныеДокументы.Партия.Дата КАК СырьеНаПродукциюДатаПартии
+ИЗ
+	ВТПервичныеДокументы КАК ВТПервичныеДокументы</query>
+	</dataSet>
+	<dataSetLink>
+		<sourceDataSet>Продукция</sourceDataSet>
+		<destinationDataSet>Сырье</destinationDataSet>
+		<sourceExpression>Регистратор</sourceExpression>
+		<destinationExpression>Регистратор</destinationExpression>
+	</dataSetLink>
+	<calculatedField>
+		<dataPath>ПродукцияGUIN</dataPath>
+		<expression>XMLСтрока(ПродукцияПартия)</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Продукция GUIN</v8:content>
+			</v8:item>
+		</title>
+	</calculatedField>
+	<calculatedField>
+		<dataPath>СырьеНаПродукциюGUIN</dataPath>
+		<expression>XMLСтрока(СырьеНаПродукциюПартия)</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Сырье на продукцию GUIN</v8:content>
+			</v8:item>
+		</title>
+	</calculatedField>
+	<calculatedField>
+		<dataPath>СырьеНаПродукциюИдентификаторСтрокиПродукции</dataPath>
+		<expression>XMLСтрока(ПродукцияПартия)</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Сырье на продукцию идентификатор строки продукции</v8:content>
+			</v8:item>
+		</title>
+	</calculatedField>
+	<parameter>
+		<name>НачалоПериода</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Начало периода</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<parameter>
+		<name>КонецПериода</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Конец периода</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<parameter>
+		<name>Организация</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Организация</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.Организации</v8:Type>
+		</valueType>
+		<value xsi:type="dcscor:DesignTimeValue">Справочник.Организации.ПустаяСсылка</value>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>Продукция</dcsset:name>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Продукция</v8:content>
+			</v8:item>
+		</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:groupItems>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>ПродукцияGUIN</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>ПродукцияПроизводитель</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>ПродукцияGLNПроизводителя</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>ПродукцияНаименованиеПроизводителя</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>ПродукцияТипОтрасли</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>ПродукцияНоменклатура</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>ПродукцияНаименованиеПродукции</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>ПродукцияЕдиницаИзмерения</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>ПродукцияПартия</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>ПродукцияНомерПартии</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>ПродукцияДатаПартии</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+				</dcsset:groupItems>
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+	<settingsVariant>
+		<dcsset:name>СырьеНаПродукцию</dcsset:name>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Сырье на продукцию</v8:content>
+			</v8:item>
+		</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:groupItems>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>СырьеНаПродукциюGUIN</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>СырьеНаПродукциюИдентификаторСтрокиПродукции</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>СырьеНаПродукциюНоменклатура</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>СырьеНаПродукциюПартия</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>СырьеНаПродукциюДатаПартии</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>СырьеНаПродукциюНомерПартии</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+				</dcsset:groupItems>
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>
