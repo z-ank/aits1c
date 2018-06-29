@@ -235,6 +235,16 @@
 			<dataPath>ПодразделениеКт</dataPath>
 			<field>ПодразделениеКт</field>
 		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПродукцияGTIN</dataPath>
+			<field>ПродукцияGTIN</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Продукция GTIN</v8:content>
+				</v8:item>
+			</title>
+		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ РАЗРЕШЕННЫЕ РАЗЛИЧНЫЕ
 	ВыпускПродукцииУслугОбороты.Организация,
@@ -333,10 +343,13 @@
 	ВТПервичныеДокументы.Номенклатура КАК ПродукцияНоменклатура,
 	ВТПервичныеДокументы.НоменклатураНаименование КАК ПродукцияНаименованиеПродукции,
 	ВТПервичныеДокументы.ЕдиницаИзмерения КАК ПродукцияЕдиницаИзмерения,
+	ЕСТЬNULL(ПоказателиПродукции.GTIN, "") КАК ПродукцияGTIN,
 	ИСТИНА КАК ПолеСвязи
 ИЗ
 	ВТСведенияОСубъектахAITS КАК ВТСведенияОСубъектахAITS
 		ВНУТРЕННЕЕ СОЕДИНЕНИЕ ВТПервичныеДокументы КАК ВТПервичныеДокументы
+			ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.ЮИ_ПоказателиПродукции КАК ПоказателиПродукции
+			ПО ВТПервичныеДокументы.Номенклатура = ПоказателиПродукции.Номенклатура
 		ПО ВТСведенияОСубъектахAITS.Партия = ВТПервичныеДокументы.Партия</query>
 	</dataSet>
 	<dataSet xsi:type="DataSetQuery">
@@ -492,6 +505,9 @@
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
 					<dcsset:field>ПродукцияЕдиницаИзмерения</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПродукцияGTIN</dcsset:field>
 				</dcsset:item>
 			</dcsset:selection>
 			<dcsset:item xsi:type="dcsset:StructureItemGroup">
