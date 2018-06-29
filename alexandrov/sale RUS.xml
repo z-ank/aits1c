@@ -415,6 +415,257 @@
 				</v8:item>
 			</title>
 		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПродукцияОтгрузокGTIN</dataPath>
+			<field>ПродукцияОтгрузокGTIN</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Продукция отгрузок GTIN</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОтгрузкиПунктРазгрузки</dataPath>
+			<field>ОтгрузкиПунктРазгрузки</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отгрузки пункт разгрузки</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОтгрузкиGUIDПунктаРазгрузки</dataPath>
+			<field>ОтгрузкиGUIDПунктаРазгрузки</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отгрузки GUIDПункта разгрузки</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОтгрузкиНаименованиеПунктаРазгрузки</dataPath>
+			<field>ОтгрузкиНаименованиеПунктаРазгрузки</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отгрузки наименование пункта разгрузки</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОтгрузкиДатаCMR</dataPath>
+			<field>ОтгрузкиДатаCMR</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отгрузки дата CMR</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОтгрузкиНомерCMR</dataPath>
+			<field>ОтгрузкиНомерCMR</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отгрузки номер CMR</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОтгрузкиНомерКачественногоУдостоверения</dataPath>
+			<field>ОтгрузкиНомерКачественногоУдостоверения</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отгрузки номер качественного удостоверения</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОтгрузкиМаксимальнаяТемператураТранспортировки</dataPath>
+			<field>ОтгрузкиМаксимальнаяТемператураТранспортировки</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отгрузки максимальная температура транспортировки</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОтгрузкиДатаКачественногоУдостоверения</dataPath>
+			<field>ОтгрузкиДатаКачественногоУдостоверения</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отгрузки дата качественного удостоверения</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОтгрузкиДатаУбытияИзПунктаПогрузки</dataPath>
+			<field>ОтгрузкиДатаУбытияИзПунктаПогрузки</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отгрузки дата убытия из пункта погрузки</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОтгрузкиДатаПрибытияВПунктРазгрузки</dataPath>
+			<field>ОтгрузкиДатаПрибытияВПунктРазгрузки</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отгрузки дата прибытия в пункт разгрузки</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОтгрузкиПунктПриемаУведомлений</dataPath>
+			<field>ОтгрузкиПунктПриемаУведомлений</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отгрузки пункт приема уведомлений</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОтгрузкиНазначениеПродукции</dataPath>
+			<field>ОтгрузкиНазначениеПродукции</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отгрузки назначение продукции</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОтгрузкиМинимальнаяТемператураТранспортировки</dataPath>
+			<field>ОтгрузкиМинимальнаяТемператураТранспортировки</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отгрузки минимальная температура транспортировки</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПродукцияОтгрузокКоличествоВКг</dataPath>
+			<field>ПродукцияОтгрузокКоличествоВКг</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Продукция отгрузок количество в кг</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПродукцияОтгрузокМаркировка</dataPath>
+			<field>ПродукцияОтгрузокМаркировка</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Продукция отгрузок маркировка</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПродукцияОтгрузокТипХранения</dataPath>
+			<field>ПродукцияОтгрузокТипХранения</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Продукция отгрузок тип хранения</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПродукцияОтгрузокВидУпаковки</dataPath>
+			<field>ПродукцияОтгрузокВидУпаковки</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Продукция отгрузок вид упаковки</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПродукцияОтгрузокЭтоСкоропорт</dataPath>
+			<field>ПродукцияОтгрузокЭтоСкоропорт</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Продукция отгрузок это скоропорт</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПродукцияОтгрузокДатаИзготовления</dataPath>
+			<field>ПродукцияОтгрузокДатаИзготовления</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Продукция отгрузок дата изготовления</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+				<dcscom:ignoreNullValues>true</dcscom:ignoreNullValues>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПродукцияОтгрузокДатаГодности</dataPath>
+			<field>ПродукцияОтгрузокДатаГодности</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Продукция отгрузок дата годности</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+				<dcscom:ignoreNullValues>true</dcscom:ignoreNullValues>
+			</role>
+		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ РАЗРЕШЕННЫЕ
 	Хозрасчетный.Период КАК Дата,
@@ -424,8 +675,17 @@
 	ВЫРАЗИТЬ(Хозрасчетный.Регистратор КАК Документ.РеализацияТоваровУслуг).СерияБланка КАК СерияБланка,
 	ВЫРАЗИТЬ(Хозрасчетный.Регистратор КАК Документ.РеализацияТоваровУслуг).НомерНакладной КАК НомерНакладной,
 	ВЫРАЗИТЬ(Хозрасчетный.Регистратор КАК Документ.РеализацияТоваровУслуг).Склад КАК Склад,
+	ВЫРАЗИТЬ(Хозрасчетный.Регистратор КАК Документ.РеализацияТоваровУслуг).СкладПунктРазгрузки КАК СкладПунктРазгрузки,
 	ВЫРАЗИТЬ(Хозрасчетный.Регистратор КАК Документ.РеализацияТоваровУслуг).Автомобиль КАК Автомобиль,
 	ВЫРАЗИТЬ(Хозрасчетный.Регистратор КАК Документ.РеализацияТоваровУслуг).Прицеп КАК Прицеп,
+	ВЫРАЗИТЬ(Хозрасчетный.Регистратор КАК Документ.РеализацияТоваровУслуг).НомерКачественногоУдостоверения КАК НомерКачественногоУдостоверения,
+	ВЫРАЗИТЬ(Хозрасчетный.Регистратор КАК Документ.РеализацияТоваровУслуг).ДатаКачественногоУдостоверения КАК ДатаКачественногоУдостоверения,
+	ВЫРАЗИТЬ(Хозрасчетный.Регистратор КАК Документ.РеализацияТоваровУслуг).ДатаУбытияИзПунктаПогрузки КАК ДатаУбытияИзПунктаПогрузки,
+	ВЫРАЗИТЬ(Хозрасчетный.Регистратор КАК Документ.РеализацияТоваровУслуг).ДатаПрибытияВПунктРазгрузки КАК ДатаПрибытияВПунктРазгрузки,
+	ВЫРАЗИТЬ(Хозрасчетный.Регистратор КАК Документ.РеализацияТоваровУслуг).ПунктПриемаУведомлений КАК ПунктПриемаУведомлений,
+	ВЫРАЗИТЬ(Хозрасчетный.Регистратор КАК Документ.РеализацияТоваровУслуг).НазначениеПродукции КАК НазначениеПродукции,
+	ВЫРАЗИТЬ(Хозрасчетный.Регистратор КАК Документ.РеализацияТоваровУслуг).МинимальнаяТемператураТранспортировки КАК МинимальнаяТемператураТранспортировки,
+	ВЫРАЗИТЬ(Хозрасчетный.Регистратор КАК Документ.РеализацияТоваровУслуг).МаксимальнаяТемператураТранспортировки КАК МаксимальнаяТемператураТранспортировки,
 	ВЫРАЗИТЬ(Хозрасчетный.Субконто1 КАК Документ.Партия) КАК Партия,
 	ВЫРАЗИТЬ(Хозрасчетный.Субконто1 КАК Документ.Партия).Номенклатура КАК Номенклатура,
 	ПРЕДСТАВЛЕНИЕ(ВЫРАЗИТЬ(Хозрасчетный.Субконто1 КАК Документ.Партия).Номенклатура) КАК НоменклатураНаименование,
@@ -435,9 +695,19 @@
 	Хозрасчетный.КоличествоОборотКт КАК Количество
 ПОМЕСТИТЬ ВТПервичныеДокументы
 ИЗ
-	РегистрБухгалтерии.Хозрасчетный.Обороты(&amp;НачалоПериода, КОНЕЦПЕРИОДА(&amp;КонецПериода, ДЕНЬ), Регистратор, , ЗНАЧЕНИЕ(ПланВидовХарактеристик.ВидыСубконтоХозрасчетные.Партии), Организация = &amp;Организация, , ) КАК Хозрасчетный
+	РегистрБухгалтерии.Хозрасчетный.Обороты(
+			&amp;НачалоПериода,
+			КОНЕЦПЕРИОДА(&amp;КонецПериода, ДЕНЬ),
+			Регистратор,
+			,
+			ЗНАЧЕНИЕ(ПланВидовХарактеристик.ВидыСубконтоХозрасчетные.Партии),
+			Организация = &amp;Организация
+				И ВЫРАЗИТЬ(Субконто1 КАК Документ.Партия).Номенклатура.ТипНоменклатуры = ЗНАЧЕНИЕ(Перечисление.ЮИ_ТипыНоменклатуры.Продукция),
+			,
+			) КАК Хозрасчетный
 ГДЕ
 	Хозрасчетный.Регистратор ССЫЛКА Документ.РеализацияТоваровУслуг
+	И ВЫРАЗИТЬ(Хозрасчетный.Регистратор КАК Документ.РеализацияТоваровУслуг).Контрагент.СтранаРегистрации = ЗНАЧЕНИЕ(Справочник.СтраныМира.Россия)
 ;
 
 ////////////////////////////////////////////////////////////////////////////////
@@ -446,9 +716,11 @@
 	ВТПервичныеДокументы.Организация КАК СубъектОрганизация,
 	ВТПервичныеДокументы.Контрагент КАК СубъектКонтрагент,
 	ВТПервичныеДокументы.Склад КАК СубъектСклад,
+	ВТПервичныеДокументы.СкладПунктРазгрузки КАК СубъектСкладПунктРазгрузки,
 	МАКСИМУМ(СведенияОСубъектахAITSОрганизация.Период) КАК ПериодОрганизация,
 	МАКСИМУМ(СведенияОСубъектахAITSКонтрагент.Период) КАК ПериодКонтрагент,
-	МАКСИМУМ(СведенияОСубъектахAITSСклад.Период) КАК ПериодСклад
+	МАКСИМУМ(СведенияОСубъектахAITSСклад.Период) КАК ПериодСклад,
+	МАКСИМУМ(СведенияОСубъектахAITSСклад.Период) КАК ПериодСкладПунктРазгрузки
 ПОМЕСТИТЬ ВТСведенияОСубъектахAITSПоПериодам
 ИЗ
 	ВТПервичныеДокументы КАК ВТПервичныеДокументы
@@ -461,12 +733,16 @@
 		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.ЮИ_СведенияОСубъектахAITS КАК СведенияОСубъектахAITSСклад
 		ПО ВТПервичныеДокументы.Склад = СведенияОСубъектахAITSСклад.Субъект
 			И ВТПервичныеДокументы.Дата &gt;= СведенияОСубъектахAITSСклад.Период
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.ЮИ_СведенияОСубъектахAITS КАК СведенияОСубъектахAITSСкладПунктРазгрузки
+		ПО ВТПервичныеДокументы.СкладПунктРазгрузки = СведенияОСубъектахAITSСкладПунктРазгрузки.Субъект
+			И ВТПервичныеДокументы.Дата &gt;= СведенияОСубъектахAITSСкладПунктРазгрузки.Период
 
 СГРУППИРОВАТЬ ПО
 	ВТПервичныеДокументы.Регистратор,
 	ВТПервичныеДокументы.Организация,
 	ВТПервичныеДокументы.Контрагент,
-	ВТПервичныеДокументы.Склад
+	ВТПервичныеДокументы.Склад,
+	ВТПервичныеДокументы.СкладПунктРазгрузки
 ;
 
 ////////////////////////////////////////////////////////////////////////////////
@@ -510,7 +786,16 @@
 				ИЛИ СведенияОСубъектахAITSСклад.Наименование = ""
 			ТОГДА СведенияОСубъектахAITS.СубъектСклад.Наименование
 		ИНАЧЕ СведенияОСубъектахAITSСклад.Наименование
-	КОНЕЦ КАК НаименованиеСклад
+	КОНЕЦ КАК НаименованиеСклад,
+	СведенияОСубъектахAITS.СубъектСкладПунктРазгрузки,
+	ЕСТЬNULL(СведенияОСубъектахAITSСкладПунктРазгрузки.GLN, "") КАК GLNСкладПунктРазгрузки,
+	ЕСТЬNULL(СведенияОСубъектахAITSСкладПунктРазгрузки.GUID, "") КАК GUIDСкладПунктРазгрузки,
+	ВЫБОР
+		КОГДА СведенияОСубъектахAITSСкладПунктРазгрузки.Наименование ЕСТЬ NULL
+				ИЛИ СведенияОСубъектахAITSСкладПунктРазгрузки.Наименование = ""
+			ТОГДА СведенияОСубъектахAITS.СубъектСкладПунктРазгрузки.Наименование
+		ИНАЧЕ СведенияОСубъектахAITSСкладПунктРазгрузки.Наименование
+	КОНЕЦ КАК НаименованиеСкладПунктРазгрузки
 ПОМЕСТИТЬ ВТСведенияОСубъектахAITS
 ИЗ
 	ВТСведенияОСубъектахAITSПоПериодам КАК СведенияОСубъектахAITS
@@ -523,6 +808,9 @@
 		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.ЮИ_СведенияОСубъектахAITS КАК СведенияОСубъектахAITSСклад
 		ПО СведенияОСубъектахAITS.СубъектСклад = СведенияОСубъектахAITSСклад.Субъект
 			И СведенияОСубъектахAITS.ПериодСклад = СведенияОСубъектахAITSСклад.Период
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.ЮИ_СведенияОСубъектахAITS КАК СведенияОСубъектахAITSСкладПунктРазгрузки
+		ПО СведенияОСубъектахAITS.СубъектСкладПунктРазгрузки = СведенияОСубъектахAITSСкладПунктРазгрузки.Субъект
+			И СведенияОСубъектахAITS.ПериодСкладПунктРазгрузки = СведенияОСубъектахAITSСкладПунктРазгрузки.Период
 ;
 
 ////////////////////////////////////////////////////////////////////////////////
@@ -546,21 +834,48 @@
 	СведенияОбЕдиницахИзмеренияAITS.ЕдиницаИзмеренияAITS КАК ПродукцияОтгрузокЕдиницаИзмеренияAITS,
 	ВТПервичныеДокументы.НомерПартии КАК ПродукцияОтгрузокНомерПартии,
 	ВТПервичныеДокументы.ДатаПартии КАК ПродукцияОтгрузокДатаПартии,
+	ВТПервичныеДокументы.ДатаПартии КАК ПродукцияОтгрузокДатаИзготовления,
+	НАЧАЛОПЕРИОДА(ДОБАВИТЬКДАТЕ(ВТПервичныеДокументы.ДатаПартии, ЧАС, ЕСТЬNULL(ПоказателиПродукции.СрокХранения, 0)), ДЕНЬ) КАК ПродукцияОтгрузокДатаГодности,
 	ВТСведенияОСубъектахAITS.СубъектСклад КАК ОтгрузкиПунктПогрузки,
 	ВТСведенияОСубъектахAITS.GLNСклад КАК ОтгрузкиGLNПунктаПогрузки,
 	ВТСведенияОСубъектахAITS.НаименованиеСклад КАК ОтгрузкиНаименованиеПунктаПогрузки,
+	ВТСведенияОСубъектахAITS.СубъектСкладПунктРазгрузки КАК ОтгрузкиПунктРазгрузки,
+	ВТСведенияОСубъектахAITS.GUIDСкладПунктРазгрузки КАК ОтгрузкиGUIDПунктаРазгрузки,
+	ВТСведенияОСубъектахAITS.НаименованиеСкладПунктРазгрузки КАК ОтгрузкиНаименованиеПунктаРазгрузки,
 	ВТПервичныеДокументы.СерияБланка КАК ОтгрузкиСерияНакладной,
 	ВТПервичныеДокументы.НомерНакладной КАК ОтгрузкиНомерНакладной,
+	ВТПервичныеДокументы.НомерНакладной КАК ОтгрузкиНомерCMR,
+	ВТПервичныеДокументы.Дата КАК ОтгрузкиДатаCMR,
 	ВТПервичныеДокументы.Дата КАК ОтгрузкиДатаНакладной,
 	ВТПервичныеДокументы.Прицеп КАК ОтгрузкиНомерПрицепа,
 	ВТПервичныеДокументы.Автомобиль КАК ОтгрузкиНомерТранспортногоСредства,
 	ЗНАЧЕНИЕ(Перечисление.ЮИ_ВидыТранспортаAITS.Автомобильный) КАК ОтгрузкиВидТранспорта,
-	ВТПервичныеДокументы.Количество КАК ПродукцияОтгрузокКоличество
+	ВТПервичныеДокументы.НомерКачественногоУдостоверения КАК ОтгрузкиНомерКачественногоУдостоверения,
+	ВТПервичныеДокументы.ДатаКачественногоУдостоверения КАК ОтгрузкиДатаКачественногоУдостоверения,
+	ВТПервичныеДокументы.ДатаУбытияИзПунктаПогрузки КАК ОтгрузкиДатаУбытияИзПунктаПогрузки,
+	ВТПервичныеДокументы.ДатаПрибытияВПунктРазгрузки КАК ОтгрузкиДатаПрибытияВПунктРазгрузки,
+	ВТПервичныеДокументы.ПунктПриемаУведомлений КАК ОтгрузкиПунктПриемаУведомлений,
+	ВТПервичныеДокументы.НазначениеПродукции КАК ОтгрузкиНазначениеПродукции,
+	ВТПервичныеДокументы.МинимальнаяТемператураТранспортировки КАК ОтгрузкиМинимальнаяТемператураТранспортировки,
+	ВТПервичныеДокументы.МаксимальнаяТемператураТранспортировки КАК ОтгрузкиМаксимальнаяТемператураТранспортировки,
+	ВТПервичныеДокументы.Количество КАК ПродукцияОтгрузокКоличество,
+	ВЫБОР
+		КОГДА ВТПервичныеДокументы.Номенклатура.Вес &lt;&gt; 0
+			ТОГДА ВТПервичныеДокументы.Количество * ВТПервичныеДокументы.Номенклатура.Вес
+		ИНАЧЕ ВТПервичныеДокументы.Количество
+	КОНЕЦ КАК ПродукцияОтгрузокКоличествоВКг,
+	ЕСТЬNULL(ПоказателиПродукции.GTIN, "") КАК ПродукцияОтгрузокGTIN,
+	ПоказателиПродукции.ВидУпаковки КАК ПродукцияОтгрузокВидУпаковки,
+	ПоказателиПродукции.Маркировка КАК ПродукцияОтгрузокМаркировка,
+	ПоказателиПродукции.ТипХранения КАК ПродукцияОтгрузокТипХранения,
+	ПоказателиПродукции.ЭтоСкоропорт КАК ПродукцияОтгрузокЭтоСкоропорт
 ИЗ
 	ВТСведенияОСубъектахAITS КАК ВТСведенияОСубъектахAITS
 		ВНУТРЕННЕЕ СОЕДИНЕНИЕ ВТПервичныеДокументы КАК ВТПервичныеДокументы
 			ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.ЮИ_СведенияОбЕдиницахИзмеренияAITS КАК СведенияОбЕдиницахИзмеренияAITS
 			ПО ВТПервичныеДокументы.ЕдиницаИзмерения = СведенияОбЕдиницахИзмеренияAITS.ЕдиницаИзмерения
+			ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.ЮИ_ПоказателиПродукции КАК ПоказателиПродукции
+			ПО ВТПервичныеДокументы.Номенклатура = ПоказателиПродукции.Номенклатура
 		ПО ВТСведенияОСубъектахAITS.ПервичныйДокумент = ВТПервичныеДокументы.Регистратор</query>
 	</dataSet>
 	<calculatedField>
@@ -765,6 +1080,27 @@
 						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
 					</dcsset:item>
 					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>ОтгрузкиПунктРазгрузки</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>ОтгрузкиНаименованиеПунктаРазгрузки</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>ОтгрузкиGUIDПунктаРазгрузки</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
 						<dcsset:field>ОтгрузкиНомерНакладной</dcsset:field>
 						<dcsset:groupType>Items</dcsset:groupType>
 						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
@@ -786,6 +1122,20 @@
 						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
 					</dcsset:item>
 					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>ОтгрузкиНомерCMR</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>ОтгрузкиДатаCMR</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
 						<dcsset:field>ОтгрузкиНомерТранспортногоСредства</dcsset:field>
 						<dcsset:groupType>Items</dcsset:groupType>
 						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
@@ -801,6 +1151,62 @@
 					</dcsset:item>
 					<dcsset:item xsi:type="dcsset:GroupItemField">
 						<dcsset:field>ОтгрузкиВидТранспорта</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>ОтгрузкиДатаКачественногоУдостоверения</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>ОтгрузкиНомерКачественногоУдостоверения</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>ОтгрузкиДатаУбытияИзПунктаПогрузки</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>ОтгрузкиДатаПрибытияВПунктРазгрузки</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>ОтгрузкиПунктПриемаУведомлений</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>ОтгрузкиНазначениеПродукции</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>ОтгрузкиМинимальнаяТемператураТранспортировки</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>ОтгрузкиМаксимальнаяТемператураТранспортировки</dcsset:field>
 						<dcsset:groupType>Items</dcsset:groupType>
 						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
 						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
@@ -833,6 +1239,9 @@
 					<dcsset:field>ПродукцияОтгрузокИдентификаторСтрокиОтгрузки</dcsset:field>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПродукцияОтгрузокGTIN</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
 					<dcsset:field>ПродукцияОтгрузокНоменклатура</dcsset:field>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
@@ -855,6 +1264,27 @@
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
 					<dcsset:field>ПродукцияОтгрузокКоличество</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПродукцияОтгрузокКоличествоВКг</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПродукцияОтгрузокВидУпаковки</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПродукцияОтгрузокМаркировка</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПродукцияОтгрузокТипХранения</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПродукцияОтгрузокЭтоСкоропорт</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПродукцияОтгрузокДатаИзготовления</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПродукцияОтгрузокДатаГодности</dcsset:field>
 				</dcsset:item>
 			</dcsset:selection>
 			<dcsset:item xsi:type="dcsset:StructureItemGroup">
